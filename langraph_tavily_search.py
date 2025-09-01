@@ -1,4 +1,5 @@
 # langgraph_rag_with_memory_tavily.py
+#pip install tavily requests beautifulsoup4 langchain langchain-community sentence-transformers openai nump
 import os
 import json
 import time
@@ -285,3 +286,4 @@ def chat_loop():
 
 if __name__ == "__main__":
     chat_loop()
+
